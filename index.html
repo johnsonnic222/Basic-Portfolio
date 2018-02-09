@@ -4,30 +4,59 @@
     <title>Nicole Johnson_Portfolio</title>
     <link rel="icon" href="https://www.defense.gov/Portals/1/Images/service_seals/DODc.gif">
 
-    <h1>Nicole Johnson</h1>
+</head>
+
 <style>
     body  {
         background-image: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol2.jpg");
-        line-height: 1;
         }
 
+    .topnav {
+        width: 100%; height: 100px;
+        border-bottom: 2px;
+        border-top: 2px;
+        border-color: #cccccc;
+        background-color:#ffffff;
+    }
+
+    .topnav a {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
+        margin-right: 15px;
+        float: right;
+    }
+
+    .topnav a:hover {
+        background-color: #ffffff;
+        color: #4aaaa5;
+    }
+
     h1 {
-        padding:2%;
         background-color: #4aaaa5;
-        height:50px;
-        width: 500px;
+        background-position-y: 100px;
+        height:40px;
+        width: 400px;
         text-indent: 100px;
         font-family: 'Georgia', Times, Times New Roman, serif;
         color: #ffffff;
         }
 
-    #content {
+    h2 {
+        color: #4aaaa5;
+        text-decoration: underline #777777;
+        text-align: center;
+    }
+
+    .content {
         background-color: #ffffff;
         width: 650px;
-        height: 350px;
+        height: 475px;
         border: 25px solid  #dddddd;
-        margin: 25px;
-        padding: 15px;
+        margin: 5px;
+        padding: 5px;
+        color: #777777;
+        float:left;
+        margin-left: 50px;
         }
     
     img {
@@ -37,12 +66,49 @@
         padding: 15px;
     }
 
+    .sidebar {
+        background-color: #ffffff;
+        width: 270px;
+        height: 200px;
+        border: 25px solid  #dddddd;
+        margin: 5px;
+        padding: 5px;
+        float: left;
+    }
+
+    .image2 {
+        width: 50px;
+        height: 50px;
+        align-content: center;
+    }
+
+    footer {
+    padding: 2em;
+    color: white;
+    background-color: #777777;
+    clear: left;
+    text-align: center;
+    border-top: #4aaaa5 5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
 </style>
-</head>
 
 <body>
+
+
+<div class="topnav">
+    <h1>Nicole Johnson</h1>
+        <a class="active" href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#content">Content</a>
+    
+</div>
+
+
     <p>
-        <div id="content">
+        <div class="content">
+            <h2>About Me</h2>
             <img src="http://i65.tinypic.com/i77gut.png"/>
                 Welcome to my page!  A little about myself:  If you havn't figured it out my name is Nicole Johnson.  I reign from the 
                 frozen tundra called Wisconsin.  I grew up there during my childhood and continued my college education there at the 
@@ -59,7 +125,17 @@
                 traveling, and hiking. 
 
         </div>
+
+    <div class="sidebar">
+         <h2>Connect With Me</h2>
+   
+            <a href="https://github.com/johnsonnic222"><img class="image2" src="http://i63.tinypic.com/10wjss2.png"/></a>
+            <a href="https://www.linkedin.com/in/nicole-johnson-61a72798/"><img class="image2" src="http://i66.tinypic.com/2nrgcab.jpg"/></a>
+            <a href="https://stackexchange.com/users/12883050/nicole"><img class="image2" src="http://i68.tinypic.com/a9sea.png"/></a>
+        </div>
     </p>
+
+    <footer>Copyright © 2018 Nicole Johnson </footer>
     
 </body>
 
